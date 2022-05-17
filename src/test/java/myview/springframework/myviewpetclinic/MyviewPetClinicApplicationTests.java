@@ -1,0 +1,13 @@
+package myview.springframework.myviewpetclinic;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class MyviewPetClinicApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}
