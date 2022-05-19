@@ -1,6 +1,6 @@
-package myview.springframework.petclinic.services.map;
+package myview.springframework.myviewpetclinic.services.map;
 
-import myview.springframework.petclinic.model.BaseEntity;
+import myview.springframework.myviewpetclinic.model.BaseEntity;
 
 import java.util.HashMap;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package myview.springframework.petclinic.services;
+package myview.springframework.myviewpetclinic.services;
 
 import java.util.Set;
 

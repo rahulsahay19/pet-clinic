@@ -1,7 +1,7 @@
-package myview.springframework.petclinic.services.map;
+package myview.springframework.myviewpetclinic.services.map;
 
-import myview.springframework.petclinic.model.Vet;
-import myview.springframework.petclinic.services.CrudService;
+import myview.springframework.myviewpetclinic.model.Vet;
+import myview.springframework.myviewpetclinic.services.CrudService;
 
 import java.util.Set;
 
