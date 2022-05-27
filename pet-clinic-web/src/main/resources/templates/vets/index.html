@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://thymeleaf.org">
+<html xmlns:th="https://www.thymeleaf.org"
+      th:replace="~{fragments/layout :: layout (~{::body},'vets')}">
 <head>
     <meta charset="UTF-8">
     <title>List of Vets</title>
@@ -7,7 +8,7 @@
 <body>
 <!--/*@thymesVar id="vet" type="myview.springframework.myviewpetclinic.model.Vet"*/-->
     <h1 th:text="'List of Vets'">List of Veterinarians...</h1>
-    <table>
+    <table id="vets" class="table table-striped">
         <thead>
         <tr>
             <th>Id</th>
